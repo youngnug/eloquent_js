@@ -4,6 +4,15 @@ for (let i = 0; i < 7; i++) {
   line += '#';
   console.log(line);
 }
+//OR
+let marioTower = '';
+for (let i = 0; i < 7; i++) {
+  for (let j = 0; j < i + 1; j++){
+  marioTower += '#'
+  }
+  marioTower += '\n'
+}
+console.log(marioTower)
 
 //Excercise 2: FizzBuzz
 for (let i = 1; i < 101; i++) {
@@ -17,6 +26,13 @@ for (let i = 1; i < 101; i++) {
     console.log("Buzz")
   else
     console.log(i)
+}
+//OR
+for (let i = 1; i <= 100; i++) {
+  let words = "";
+  if (i % 3 == 0) words += "Fizz";
+  if (i % 5 == 0) words += "Buzz";
+  console.log(words || i);
 }
 // Excercise 3: Chess Board.
 let size = 8;
