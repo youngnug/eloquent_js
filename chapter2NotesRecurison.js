@@ -12,7 +12,9 @@ function power(base, exponent) {
     // Pass in (2,3) (See logic below)-->   power(2 * (2^2)) --> 8
   }
   //Remember, you're returning exponent - 1 as the value of exponent when its called.
-  //Logic: Pass in 2, 3 to power function. Well 2^3 is equal to 2 * 2^2 and so on until you hit base case.
+  //Also remember that knowing the value of the base case why this logically makes any sense.
+  //Logic: Pass in 2, 3 to power function. Well 2^3 is equal to 2 * 2^2 and so on. Each iteration of this is added to stack until you hit the base case.
+  //Once the base condition is met, recurse back up while popping each successfully executed call off the top of the stack.
   
 }
 
