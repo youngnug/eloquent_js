@@ -11,7 +11,7 @@ function power(base, exponent) {
     //		2	*		2					2 * (2^3) --> 8
   }
   //Remember, you're returning exponent - 1 as the value of exponent when its called
-  //Logic: Pass 2^3 to power. Well 2^3 is equal to 2 * 2^2 and so on until you hit base case.
+  //Logic: Pass in 2^3 to power function. Well 2^3 is equal to 2 * 2^2 and so on until you hit base case.
   
 }
 
