@@ -1,7 +1,8 @@
 function power(base, exponent) {
   if (exponent == 0) {
     return 1;
-  } else {
+  } 
+  else {
     return base * power(base, exponent - 1)
     // Pass in (2,3)           returns-->   2 * power(2,2) waiting on power(2,2)...got it! 2 * (4) = (8)
     // Loops around with (2,2) returns-->   2 * power(2,1) waiting on power(2,1)...got it! 2 * (2) = (4)
